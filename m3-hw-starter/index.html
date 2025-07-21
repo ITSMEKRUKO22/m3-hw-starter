@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bistro 76</title>
+        <meta name="author" content="Bryan Gonzalez">
+        <meta name="description" content="Welcome to Bistro 76! Our family-owned restaurant has been welcoming guests for over fifty years. Join us for delicious Italian food and leave feeling like family.">
+        <!-- FAVICON -->
+        <link rel="icon" href="images/noodle-logo.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="top">
+            <!-- LOGO HERE -->
+            <a href="index.html" aria-label="Go to the Bistro 76 home page">
+                <img src="images/noodle-logo.png" alt="" width="100" height="100">
+            </a>
+            <h1>
+                <a href="index.html">Bistro 76</a>
+            </h1>
+            <!-- NAV HERE -->
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Welcome to Bistro 76!</h2>
+            <p>Our hope is that when you have a meal with us, you leave feeling like family.</p>
+            View Our Menu
+
+            <div class="noodle-line"></div>
+
+            <section id="about">
+                <img src="images/bistro.jpeg" alt="" width="600" height="400">
+
+                <div>
+                    <h3>About Us</h3>
+                    <p>Bistro 76 first opened in 1970, (although it was in our home kitchen), where our mother started cooking and selling her famous lasagna to families in town having events. It didn't take long to grow out of that setup, and the Bistro 76 became a small sit-down restaurant where the entire Smith clan grew up.</p>
+                    <p>Our family-style meals are made for sharing, with fresh, local ingredients. We've never cut corners on ingredients, service, or comfort. Whether you stop by on a weeknight to save yourself from a frozen dinner, or you choose us to cater your wedding or other event, we are sure that you'll leave with a smile and a full stomach.</p>
+                </div>
+                <section>
+                    <h4>Location and Hours of Operation</h4>
+                    
+                    <address>
+                        1234 Main Street Suite 3A
+                        Anytown, State 12345
+                        <a href="tel:555555555">(555) 555-5555</a>
+                        <a href="mailto:contact@bistrosevensix.com">contact@bistrosevensix.com</a>
+                    </address>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tuesday - Thursday</td>
+                                <td>11:00 AM - 10:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Friday &amp; Saturday</td>
+                                <td>11:00 AM - 11:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday &amp; Monday</td>
+                                <td>CLOSED</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+
+            <div class="noodle-line"></div>
+
+            <section>
+                <h3>Contact Us</h3>
+                <p>Ready to plan an event? Have questions about ingredients or custom orders? Reach out to us through our contact form and we will get back to you as soon as we can! Required inputs are marked with a <span class="required">*</span></p>
+                
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="my-name">Full Name <span class="required">*</span></label>
+                    <input type="text" id="my-name" name="my-name" required>
+
+                    <label for="my-email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="my-email" name="my-email" required>
+
+                    <label for="my-phone">Phone Number</label>
+                    <input type="tel" id="my-phone" name="my-phone">
+
+                    <label for="my-comments">Comments <span class="required">*</span></label>
+                    <textarea id="my-comments" name="my-comments" rows="5" required></textarea>
+
+                    <button type="submit" id="my-submit" name="my-submit">Submit</button>
+                </form>
+            </section>
+            <!-- BACK TO TOP BUTTON HERE -->
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2023 - Bistro 76</p>
+            <small>This site is for educational purposes only</small>
+        </footer>
+    </body>
+</html>
